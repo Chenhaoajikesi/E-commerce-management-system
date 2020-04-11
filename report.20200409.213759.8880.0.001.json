@@ -1,0 +1,494 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200409.213759.8880.0.001.json",
+    "dumpEventTime": "2020-04-09T21:37:59Z",
+    "dumpEventTimeStamp": "1586439479548",
+    "processId": 8880,
+    "cwd": "F:\\Chen\\VUE\\项目实战\\code\\vue_shop",
+    "commandLine": [
+      "node",
+      "C:\\Users\\DELL\\AppData\\Roaming\\npm\\\\node_modules\\yarn\\bin\\yarn.js",
+      "add",
+      "less-loader",
+      "-D",
+      "--json"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home China",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 14430187,
+        "nice": 0,
+        "sys": 12233812,
+        "idle": 231396375,
+        "irq": 1377328
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 3628359,
+        "nice": 0,
+        "sys": 3243781,
+        "idle": 251187890,
+        "irq": 95625
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 18704750,
+        "nice": 0,
+        "sys": 15137328,
+        "idle": 224217953,
+        "irq": 243453
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 3453796,
+        "nice": 0,
+        "sys": 3251093,
+        "idle": 251355140,
+        "irq": 55640
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 12128093,
+        "nice": 0,
+        "sys": 9209562,
+        "idle": 236722375,
+        "irq": 188312
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 3315640,
+        "nice": 0,
+        "sys": 3021312,
+        "idle": 251723078,
+        "irq": 59140
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 7368125,
+        "nice": 0,
+        "sys": 4440203,
+        "idle": 246251703,
+        "irq": 93609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 8443546,
+        "nice": 0,
+        "sys": 5982546,
+        "idle": 243633937,
+        "irq": 171437
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "f4:d1:08:62:41:1b",
+        "address": "fe80::f128:701b:5f97:783a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "f4:d1:08:62:41:1b",
+        "address": "192.168.1.4",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-NJPQ703"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7126f19f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7126f5e1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7126f4dd8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7127f34cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff713009f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712ff2021",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712ebe57c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712ec6521",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712ebbb13",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712eba184",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712edb36d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712c40c51",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff713454ddd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71341af77",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d9d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d72c1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7133d6eac",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712f17c33",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712f175b6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff712fe862d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71281a73e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71281a977",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7128198ba",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7127bac92",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71281a3d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7126c67ac",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71350be08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffc52467bd4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffc5406ced1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3203072,
+    "totalCommittedMemory": 3203072,
+    "usedMemory": 2425432,
+    "availableMemory": 2122261984,
+    "memoryLimit": 2124414976,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047432,
+        "available": 24
+      },
+      "old_space": {
+        "memorySize": 1196032,
+        "committedMemory": 1196032,
+        "capacity": 957040,
+        "used": 954440,
+        "available": 2600
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 153152,
+        "used": 153152,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 237600,
+        "used": 237600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.015,
+    "kernelCpuSeconds": 0.093,
+    "cpuConsumptionPercent": 10.8,
+    "maxRss": 23142400,
+    "pageFaults": {
+      "IORequired": 5826,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=F:": "F:\\Chen\\VUE\\项目实战\\code\\vue_shop",
+    "AGSDESKTOPJAVA": "F:\\Chen\\arcgis\\Arcgissetupfile\\Desktop10.2\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\DELL\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-NJPQ703",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\DELL\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GOPATH": "C:\\Users\\DELL\\go",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\DELL",
+    "LOCALAPPDATA": "C:\\Users\\DELL\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-NJPQ703",
+    "npm_config_registry": "https://registry.npm.taobao.org",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\DELL\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\DELL\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "F:\\Chen\\VUE\\项目实战\\code\\vue_shop\\node_modules\\.bin;F:\\Chen\\VUE\\项目实战\\code\\node_modules\\.bin;F:\\Chen\\VUE\\项目实战\\node_modules\\.bin;F:\\Chen\\VUE\\node_modules\\.bin;F:\\Chen\\node_modules\\.bin;F:\\node_modules\\.bin;F:\\Chen\\Node;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;F:\\Chen\\go\\bin;F:\\Chen\\openCV\\opencv\\build\\x64\\vc15\\bin;F:\\Chen\\opencv2\\opencv2_VS2017\\install\\x64\\vc15\\lib;F:\\Chen\\openCV\\opencv\\vs2017_64\\install\\x64\\vc15\\lib;F:\\Chen\\openCV\\opencv\\VS2017_64_Contrib\\install\\x64\\vc15\\bin;F:\\Chen\\openCV\\opencv\\VS2017_64_Contrib\\install\\x64\\vc15\\lib;F:\\Chen\\matlab2016a\\R2016a\\runtime\\win64;F:\\Chen\\matlab2016a\\R2016a\\bin;F:\\Chen\\matlab2016a\\R2016a\\polyspace\\bin;F:\\Chen\\Node\\;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\;C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps;F:\\Chen\\vscode\\Microsoft VS Code\\bin;C:\\Users\\DELL\\go\\bin;F:\\Chen\\openCV\\opencv\\build\\x64\\vc15\\bin;C:\\Users\\DELL\\AppData\\Roaming\\npm;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\DELL\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\DELL\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-NJPQ703",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-NJPQ703",
+    "USERNAME": "DELL",
+    "USERPROFILE": "C:\\Users\\DELL",
+    "VS120COMNTOOLS": "F:\\Chen\\visualstudio2013\\2013\\Common7\\Tools\\",
+    "VUE_APP_CLI_UI_URL": "",
+    "VUE_CLI_API_MODE": "true",
+    "VUE_CLI_CONTEXT": "F:\\Chen\\VUE\\项目实战\\code\\vue_shop",
+    "VUE_CLI_IPC": "vue-cli-o74ywjkAB",
+    "VUE_CLI_PROJECT_ID": "mPAdXAu7K",
+    "windir": "C:\\WINDOWS",
+    "YARN_NPM_REGISTRY_SERVER": "https://registry.npm.taobao.org",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "F:\\Chen\\Node\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
